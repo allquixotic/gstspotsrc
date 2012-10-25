@@ -1,6 +1,7 @@
 # http://www.gnu.org/software/automake
 
 Makefile.in
+Makefile
 
 # http://www.gnu.org/software/autoconf
 
@@ -11,3 +12,16 @@ Makefile.in
 /depcomp
 /install-sh
 /missing
+/.libs
+/.deps
+.libs/
+.deps/
+*.so
+*.o
+*.la
+*~
+*.lo
+config.log
+stamp-h1
+config.h
+config.status
